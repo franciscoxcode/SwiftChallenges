@@ -32,8 +32,23 @@ import Foundation
 //
 //Write a code that gives out the total amount for different days(d).
 
-func rentalCarCost(days: Int) -> Int {
-    days >= 7 ? 40 * days - 50 : days >= 3 ? 40 * days - 20 : 40 * days
-}
+//func rentalCarCost(days: Int) -> Int {
+//    days >= 7 ? 40 * days - 50 : days >= 3 ? 40 * days - 20 : 40 * days
+//}
+//
+//print(rentalCarCost(days: 3))
 
-print(rentalCarCost(days: 3))
+//In this game, the hero moves from left to right. The player rolls the dice and moves the number of spaces indicated by the dice two times.
+//
+//Create a function for the terminal game that takes the current position of the hero and the roll (1-6) and return the new position.
+
+//Example:
+//
+//move(3, 6) should equal 15
+                        
+                        
+//func playerMoves(_ p: Int, _ t: Int) -> Int {
+//        p + (t * 2)
+//}
+//
+//print(playerMoves(3, 6))
