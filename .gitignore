@@ -1,0 +1,8 @@
+# Ignorar archivos y carpetas generadas por Xcode Playgrounds
+*.xcworkspace/
+*.xcuserstate
+*.xcplaygroundstate
+*.xcodeproj/
+*.swiftpm/
+*.build/
+.DS_Store
