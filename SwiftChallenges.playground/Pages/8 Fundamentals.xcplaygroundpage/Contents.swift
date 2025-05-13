@@ -70,8 +70,25 @@ import Foundation
 //0 <= m <= 59
 //0 <= s <= 59
 
-func timeSinceMidnight(_ h:Int, _ m:Int, _ s: Int) -> Int {
-    (h*60*60*1000)+(m*60*1000)+(s*1000)
-}
+//func timeSinceMidnight(_ h:Int, _ m:Int, _ s: Int) -> Int {
+//    (h*60*60*1000)+(m*60*1000)+(s*1000)
+//}
+//
+//print(timeSinceMidnight(0,1,1))
 
-print(timeSinceMidnight(0,1,1))
+//Messi is a soccer player with goals in three leagues:
+//
+//LaLiga
+//Copa del Rey
+//Champions
+//Complete the function to return his total number of goals in all three leagues.
+//
+//Note: the input will always be valid.
+//
+//For example:
+//
+//5, 10, 2  -->  17
+
+//func messiGoals(_ champions: Int, _ copaDelrey: Int, _ laLiga: Int) -> Int {
+//    champions + copaDelrey + laLiga
+//}
