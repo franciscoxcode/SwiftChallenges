@@ -121,3 +121,10 @@ import Foundation
 //}
 //
 //print(averageScore(90, 80, 60))
+
+func checkForFactor(_ base: Int, _ factor: Int) -> Bool {
+    base % factor == 0 ? true : false
+}
+
+checkForFactor(10, 5)
+checkForFactor(8, 3)
