@@ -136,7 +136,11 @@ import Foundation
 //digitize(239293)
 //digitize(2030291)
 
-func booleanToString(_ b: Bool) -> String {
-  b ? "true" : "false"
+//func booleanToString(_ b: Bool) -> String {
+//  b ? "true" : "false"
+//}
+
+func take(_ arr: [Int], _ n: Int) -> [Int] {
+  n > arr.count ? arr : Array(arr[0..<n])
 }
 
