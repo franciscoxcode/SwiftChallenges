@@ -122,9 +122,21 @@ import Foundation
 //
 //print(averageScore(90, 80, 60))
 
-func checkForFactor(_ base: Int, _ factor: Int) -> Bool {
-    base % factor == 0 ? true : false
+//func checkForFactor(_ base: Int, _ factor: Int) -> Bool {
+//    base % factor == 0 ? true : false
+//}
+//
+//checkForFactor(10, 5)
+//checkForFactor(8, 3)
+
+//func digitize(_ num:Int) -> [Int] {
+//    Array(String(num).compactMap { Int(String($0)) }.reversed())
+//}
+//
+//digitize(239293)
+//digitize(2030291)
+
+func booleanToString(_ b: Bool) -> String {
+  b ? "true" : "false"
 }
 
-checkForFactor(10, 5)
-checkForFactor(8, 3)
